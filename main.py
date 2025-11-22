@@ -110,9 +110,9 @@ if __name__ == "__main__":
     MQTT_BROKER = "broker.hivemq.com"
     
 
-    MOBILE_IP = "192.168.76.50"  
+    MOBILE_IP = "192.168.10.14"  
     MOBILE_PORT = "8080"
-    VIDEO_SOURCE = f"http://192.168.76.50:8080/video"
+    VIDEO_SOURCE = f"http://192.168.10.14:8080/video"
     
 
     system = TrafficManagementSystem(VIDEO_SOURCE, MONGO_URI, MQTT_BROKER)

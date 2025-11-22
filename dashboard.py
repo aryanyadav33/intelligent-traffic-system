@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from pymongo import MongoClient
 from datetime import datetime
+import time
 
 st.set_page_config(page_title="Traffic Management System", layout="wide", page_icon="🚦")
 
